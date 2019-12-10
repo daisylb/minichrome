@@ -1,5 +1,5 @@
 meta {
-    -theme-interface-style: dark;
+    -theme-interface-style: light;
     -theme-vibrancy: vibrant;
     -theme-accent-color: auto;
 }
@@ -8,10 +8,10 @@ meta {
 /*
  * Window styles
  */
-meta.window {
+/* meta.window {
     background-color: hsb(210, 10%, 20%);
     border-color: hsba(0, 0%, 100%, 0.1);
-}
+} 
 meta.titlebar {
     color: hsb(210, 10%, 80%);
     background: linear-gradient(hsb(210, 10%, 26%), hsb(210, 10%, 20%));
@@ -49,17 +49,17 @@ meta.textfield {
 
 meta.accent {
     color: hsb(204, 78%, 97%);
-}
+}*/
 
 /*
  * Document styles
  */
 meta.document {
-    background-color: hsb(210, 10%, 12%);
-    border-color: hsba(0, 0%, 100%, 0.1);
+    background-color: white;
+    color: black;
 }
 
-meta.document.button {
+/* meta.document.button {
     background: linear-gradient(hsb(210, 10%, 26%), hsb(210, 10%, 22%));
     border: linear-gradient(hsb(210, 10%, 12%), hsb(210, 10%, 8%));
 }
@@ -73,43 +73,43 @@ meta.document.button.highlighted {
 meta.document.textfield {
     background-color: hsb(210, 10%, 10%);
     border-color: hsb(210, 10%, 6%);
-}
+} */
 
 /* Text */
 meta.text {
-    color: hsb(210, 10%, 95%);
+    color: black;
 }
 meta.text.invisible {
-    color: hsb(210, 20%, 20%);
+    color: #666;
 }
 meta.text.selected {
 }
 
 /* Cursor */
-meta.cursor {
+/* meta.cursor {
     background-color: hsb(210, 10%, 16%);
 }
 
-/* Indentation Guides */
+/* Indentation Guides * /
 meta.indentguide {
     border-color: hsba(220, 10%, 50%, 0.2);
 }
 
-/* Gutter */
+/* Gutter * /
 meta.gutter {
     color: hsb(210, 10%, 40%);
 }
 meta.gutter.selected {
     background-color: hsb(210, 10%, 10%);
     color: hsb(210, 10%, 80%);
-}
+} */
 
 
 /*
  * Syntax styles
  */
 
-keyword {
+/* keyword {
     color: hsb(210, 60%, 100%);
 }
 comment {
@@ -134,10 +134,10 @@ invalid {
 link {
     color: hsb(210, 60%, 100%);
 
-}
+} */
 
 /* Values */
-value.boolean {
+/* value.boolean {
     color: hsb(210, 60%, 100%);
 }
 value.null {
@@ -151,10 +151,10 @@ value.entity {
 }
 value.symbol {
     color: hsb(210, 60%, 100%);
-}
+} */
 
 /* Identifiers */
-identifier.type {
+/* identifier.type {
     color: hsb(258, 40%, 87%);
 }
 identifier.constant {
@@ -173,10 +173,10 @@ identifier.key {
 }
 identifier.argument {
     color: hsb(268, 34%, 100%);
-}
+} */
 
 /* Strings */
-string {
+/* string {
     color: hsb(5, 65%, 100%);
 }
 string.key {
@@ -196,10 +196,10 @@ regex.escaped {
 }
 cdata {
     color: hsb(210, 60%, 100%);
-}
+} */
 
 /* Markup */
-markup.heading {
+/* markup.heading {
     color: hsb(30, 50%, 80%);
 }
 markup.line {
@@ -221,10 +221,10 @@ markup.list.item {
 }
 markup.code {
     background-color: rgba(128, 128, 128, 0.2);
-}
+} */
 
 /* Types */
-definition.class class.name,
+/* definition.class class.name,
 definition.type type.name,
 definition.package package.name,
 definition.enum enum.name,
@@ -232,17 +232,17 @@ definition.union union.name,
 definition.struct struct.name {
     font-weight: bold;
     color: hsb(258, 40%, 87%);
-}
+} */
 
 /* Members */
-definition.property property.name,
+/* definition.property property.name,
 definition.function function.name,
 definition.method method.name {
     color: hsb(210, 10%, 100%);
-}
+} */
 
 /* Tags */
-tag {
+/* tag {
     color: hsb(166, 40%, 78%);
 }
 tag.framework {
@@ -256,10 +256,10 @@ tag.attribute.value {
 }
 tag.attribute.value.link {
     color: hsb(210, 60%, 100%);
-}
+} */
 
 /* Styles */
-style.at {
+/* style.at {
     color: hsb(25, 75%, 100%);
     font-weight: bold;
 }
@@ -292,4 +292,4 @@ style.value.keyword {
 }
 style.value.color.named {
     color: hsb(210, 60%, 100%);
-}
+} */
