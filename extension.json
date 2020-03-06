@@ -1,7 +1,9 @@
 {
     "identifier": "leigh.Minichrome",
     "name": "Minichrome",
-    "author": "Leigh Brenecki",
+    "vendor": "Leigh Brenecki",
     "description": "A theme with some colour, but not much.",
-    "version": "1.0"
+    "version": "1.0",
+    "categories": ["themes"],
+    "bugs": "https://github.com/excitedleigh/minichrome/issues"
 }
