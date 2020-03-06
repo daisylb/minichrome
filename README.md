@@ -2,4 +2,4 @@
 
 A theme with some colour, but not much.
 
-![](screenshot.png)
+![](extension.png)
