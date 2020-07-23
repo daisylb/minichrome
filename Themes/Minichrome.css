@@ -1,40 +1,46 @@
 meta {
-    -theme-interface-style: light;
-    -theme-vibrancy: vibrant;
-    -theme-accent-color: auto;
+  -theme-interface-style: light;
+  -theme-vibrancy: vibrant;
+  -theme-accent-color: auto;
 }
 
 meta.document {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 meta.text {
-    color: black;
+  color: black;
 }
 
 /* TODO: style doc comments differently */
 comment {
-    color: #664;
-    background-color: #ffe;
+  color: #664;
+  background-color: rgba(255, 255, 192, 0.5);
 }
 
 /* TODO: commas separating arguments in functions */
 /* TODO: commas separating selectors in CSS */
 /* TODO: colons in Python */
 /* TODO: colons, semicolons in CSS */
-bracket, operator, keyword, tag, declaration {
-    color: #888;
+bracket,
+operator,
+keyword,
+tag,
+declaration {
+  color: #888;
 }
 
-tag.name, tag.attribute.name, tag.attribute.value {
-    color: #333;
+tag.name,
+tag.attribute.name,
+tag.attribute.value {
+  color: #333;
 }
 
 /* TODO: style Python docstrings differently */
 string {
-    color: #333;
-    background-color: #f6f6f6;
+  color: #333;
+  background-color: rgba(230, 230, 230, 0.5);
 }
 
 class.name,
@@ -49,7 +55,7 @@ method.name,
 variable.name,
 constant.name,
 style.selector {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /*
@@ -68,18 +74,19 @@ function.name, method.name {
 /* Markup */
 
 markup.heading {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 markup.bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 markup.italic {
-    font-style: italic;
+  font-style: italic;
 }
 
-markup.link, tag.attribute.value.link {
-    color: blue;
-    text-decoration: underline;
+markup.link,
+tag.attribute.value.link {
+  color: blue;
+  text-decoration: underline;
 }
